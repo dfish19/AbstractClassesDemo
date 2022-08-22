@@ -69,6 +69,7 @@ namespace ConsoleUI
             vehicle.Add(motorcycle);
             vehicle.Add(vehicle1);
             vehicle.Add(vehicle2);
+            
 
 
             /*
@@ -81,6 +82,19 @@ namespace ConsoleUI
             }
 
             // Call each of the drive methods for one car and one motorcycle
+
+            car.DriveVirtual();
+            Console.WriteLine();
+
+            car.DriveAbstract();
+            Console.WriteLine();
+
+            motorcycle.DriveVirtual();
+            Console.WriteLine();
+
+
+            motorcycle.DriveAbstract();
+            Console.WriteLine();
 
             #endregion            
             Console.ReadLine();
